@@ -1,0 +1,146 @@
+<html>
+<head>
+<title>TestNG:  Authorization Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Authorization Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon May 11 00:28:43 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>79 seconds (79387 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.centime.selenium.test.AuthorizationNegativeTest.authorizationCheckEmailAlreadyExistTest()'><b>authorizationCheckEmailAlreadyExistTest</b><br>Test class: com.centime.selenium.test.AuthorizationNegativeTest<br/>
+<a href="#Output-1646234040" onClick='toggleBox("Output-1646234040", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1646234040" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1646234040">
+Authorization Check Email Already Exist Test Started<br/>
+Authorization Check Email Already Exist Test Finished<br/>
+</div>
+</td>
+<td></td>
+<td>16</td>
+<td>com.centime.selenium.test.AuthorizationNegativeTest@2f8f5f62</td></tr>
+<tr>
+<td title='com.centime.selenium.test.AuthorizationPositiveTest.authorizationCheckEmailNotExistTest()'><b>authorizationCheckEmailNotExistTest</b><br>Test class: com.centime.selenium.test.AuthorizationPositiveTest<br/>
+<a href="#Output-1384210339" onClick='toggleBox("Output-1384210339", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1384210339" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1384210339">
+Authorization Check Email Not Exist Test Started<br/>
+Authorization Check Email Not Exist Test Finished<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>com.centime.selenium.test.AuthorizationPositiveTest@7ba18f1b</td></tr>
+<tr>
+<td title='com.centime.selenium.test.AuthorizationPositiveTest.authorizationCreationTest()'><b>authorizationCreationTest</b><br>Test class: com.centime.selenium.test.AuthorizationPositiveTest<br/>
+<a href="#Output-1021258849" onClick='toggleBox("Output-1021258849", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1021258849" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1021258849">
+Authorization Creation Test Started<br/>
+Enter First Name as Inputcentime<br/>
+Enter Last Name as Inputcentime<br/>
+Enter Password as Inputcentime<br/>
+Selected given days30 as Input<br/>
+Selected given months3 as Input<br/>
+Selected given Year1990 as Input<br/>
+Selected given state: Alaska as Input<br/>
+Selected given CountryUnited States as Input<br/>
+Enter First Name as Inputcentime<br/>
+Enter Last Name as Inputcentime<br/>
+Enter address as InputCentime,Jay Enclave 1234, <br/>
+Entered City as Input<br/>
+Entered Postal Code Input<br/>
+Enter Phone Number as Input<br/>
+Entered Address Input<br/>
+Authorization Creation Test Finished<br/>
+</div>
+</td>
+<td></td>
+<td>17</td>
+<td>com.centime.selenium.test.AuthorizationPositiveTest@7ba18f1b</td></tr>
+<tr>
+<td title='com.centime.selenium.test.AuthorizationNegativeTest.authorizationValidationErrorsTest()'><b>authorizationValidationErrorsTest</b><br>Test class: com.centime.selenium.test.AuthorizationNegativeTest<br/>
+<a href="#Output-737085888" onClick='toggleBox("Output-737085888", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-737085888" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-737085888">
+Authorization Validation Errors Test Started<br/>
+Authorization Validation Errors Test Finished<br/>
+</div>
+</td>
+<td></td>
+<td>16</td>
+<td>com.centime.selenium.test.AuthorizationNegativeTest@2f8f5f62</td></tr>
+</table><p>
+</body>
+</html>

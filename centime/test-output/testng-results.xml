@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Authorization Validation Errors Test Started]]>
+    </line>
+    <line>
+      <![CDATA[Authorization Validation Errors Test Finished]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="79553" started-at="2020-05-11T13:16:20 IST" finished-at="2020-05-11T13:17:40 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="79553" started-at="2020-05-11T13:16:20 IST" finished-at="2020-05-11T13:17:40 IST">
+      <class name="com.centime.selenium.test.AuthorizationNegativeTest">
+        <test-method status="PASS" signature="testSetUp()[pri:0, instance:com.centime.selenium.test.AuthorizationNegativeTest@43d7741f]" name="testSetUp" is-config="true" duration-ms="4510" started-at="2020-05-11T13:16:20 IST" finished-at="2020-05-11T13:16:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method status="PASS" signature="authorizationValidationErrorsTest()[pri:0, instance:com.centime.selenium.test.AuthorizationNegativeTest@43d7741f]" name="authorizationValidationErrorsTest" duration-ms="74201" started-at="2020-05-11T13:16:25 IST" finished-at="2020-05-11T13:17:39 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Authorization Validation Errors Test Started]]>
+            </line>
+            <line>
+              <![CDATA[Authorization Validation Errors Test Finished]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- authorizationValidationErrorsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.centime.selenium.test.AuthorizationNegativeTest@43d7741f]" name="tearDown" is-config="true" duration-ms="788" started-at="2020-05-11T13:17:39 IST" finished-at="2020-05-11T13:17:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.centime.selenium.test.AuthorizationNegativeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

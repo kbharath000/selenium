@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Automation Practice Web Site Test Run]">
+  <test thread-count="5" name="Authorization Test(failed)">
+    <classes>
+      <class name="com.centime.selenium.test.AuthorizationPositiveTest">
+        <methods>
+          <include name="testSetUp"/>
+          <include name="authorizationTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.centime.selenium.test.AuthorizationPositiveTest -->
+    </classes>
+  </test> <!-- Authorization Test(failed) -->
+</suite> <!-- Failed suite [Automation Practice Web Site Test Run] -->

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Automation Practice Web Site Test Run">
+
+  <test name="Authorization Test">
+  <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.centime.selenium.test.AuthorizationPositiveTest"/>
+    </classes>
+  </test>
+  
+    <test name="Authorization Test">
+  <parameter name="browser" value="mozilla"/>
+    <classes>
+      <class name="com.centime.selenium.test.AuthorizationPositiveTest"/>
+    </classes>
+  </test>
+</suite>
